@@ -3,15 +3,20 @@ import HomeView from '../views/HomeView.vue'
 import MyBooksView from '../views/MyBooksView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
-      name: 'home',
+      redirect: { name: 'Home' },
       component: HomeView
     },
     {
-      path: '/myBooks',
+      path: '/UpPassChallenge/',
+      name: 'Home',
+      component: Home
+    },
+    {
+      path: '/UpPassChallenge/myBooks',
       name: 'myBooks',
       component: MyBooksView
     }
