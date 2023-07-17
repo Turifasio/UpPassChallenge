@@ -8,6 +8,9 @@ It must show to the user a repository of books using the Google Books API, where
 
 The user can also set books as favorites and check them in another view, and also delete the books from that list. For this purpose it will be used the localStorage.
 
+## Github Page
+https://turifasio.github.io/UpPassChallenge/
+
 ## Installation
 Build the app using npm run build, in gitlab, use the CI file configurated.
 
