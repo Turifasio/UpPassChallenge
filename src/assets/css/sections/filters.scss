@@ -1,0 +1,33 @@
+#app {
+    .app-navigation {
+        .filters-header {
+            background-color: var(--color-primary);
+            border-radius: 0;
+        }
+    
+        .filter-search-button-list {
+            padding: 4px 12px;
+    
+            .v-list-item__content {
+                overflow: visible;
+            }
+        }
+    
+        .v-slider.v-input--horizontal {
+            margin-inline-end: 20px;
+
+            label {
+                position: absolute;
+                bottom: 5px;
+            }
+        }
+    }
+
+    .sorter {
+        cursor: pointer;
+        
+        &.active {
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+#app{
+    .logo {
+        display: block;
+        margin: 0 20px;
+    }
+
+    .header-menu {
+        margin-top: 0;
+    }
+
+    nav {
+        width: 100%;
+        font-size: 16px;
+
+        a {
+            display: inline-block;
+            padding: 0 1rem;
+            border-left: 1px solid var(--color-border);
+
+            &:first-of-type {
+                border: 0;
+            }
+        }
+    }
+}
